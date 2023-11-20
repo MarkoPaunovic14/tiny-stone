@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<!-- The set of sanity tests to execute on the system -->
+
+<suite name="proba">
+
+    <parameter name="browser" value="firefox" />
+
+    <test name="TestNG practise">
+        <classes>
+
+           <class name="week.second.TestNG6Selenium2" />
+
+        </classes>
+
+    </test>
+
+
+</suite>

@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<!-- The set of sanity tests to execute on the system -->
+
+<suite name="THIS IS A SUITE NAME">
+
+    <test name="TestNG practise">
+        <classes>
+
+            <class name="week.second.TestNG1TestAnnotation" />
+
+            <class name="week.second.TestNG2BeforeAfterAnnotation">
+                <methods>
+                    <include name="firstTest"/>
+                </methods>
+            </class>
+
+            <class name="week.second.TestNG3PriorityAlphabetically">
+                <methods>
+                    <exclude name="bTest"/>
+                </methods>
+            </class>
+
+        </classes>
+
+    </test>
+
+
+</suite>

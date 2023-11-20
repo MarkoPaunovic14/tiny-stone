@@ -1,0 +1,21 @@
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<!-- The set of sanity tests to execute on the system -->
+
+<suite name="THIS IS A SUITE NAME" >
+
+    <parameter name="firstNumber" value="1" />
+    <parameter name="secondNumber" value="2" />
+
+    <test name="TestNG practise">
+        <parameter name="secondNumber" value="8" />
+
+        <classes>
+
+            <class name="week.second.TestNG5Parameters" />
+
+        </classes>
+
+    </test>
+
+
+</suite>
